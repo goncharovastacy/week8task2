@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.firstnav,
+.foottext {
+    color: white;
+}
+
+.mainsection {
+    margin-top: 20px;
+}
+
+.headline {
+    padding: 60px 10px;
+}
+
+.card {
+    max-width: 325px;
+}
+
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardscol {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.foottext {
+    margin-top: 20px;
+}
+
+.container-fluid {
+    padding: 0;
+}
